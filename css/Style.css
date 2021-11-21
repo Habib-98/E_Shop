@@ -1,0 +1,431 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/* Header section start*/
+header{
+	width: 100%;
+	height: 400px;
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.offer-1{
+	width: 100%;
+	height: 27px;
+}
+.offer-1 h1{
+	float: left;
+	font-size: 25px;
+	color: maroon;
+}
+.offer-1 h3{
+	font-size: 25px;
+	color: #0F3521;
+}
+.logo{
+	width: 50%;
+	height: 65px;
+	float: left;
+}
+.logo img{
+	width: 150px;
+    height: 75px;
+    float: left;
+}
+.menu{
+	width: 50%;
+	height: 65px;
+	float: left;
+}
+.menu img{
+	width: 25px;
+	height: 25px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 12px 10px;
+}
+nav ul li a{
+	color: maroon;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.header-main{
+	width: 550px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.header-main h2{
+	color: white;
+	font-size: 20px;
+}
+.col-1{
+	width: 50%;
+    height: 279px;
+    float: left;
+}
+.col-2{
+	width: 50%;
+    height: 303px;
+    float: left;
+
+}
+.col-2 img{
+    width: 75%;
+    height: 270px;
+    float: right;
+}
+.btn-1{
+	display: inline-block;
+	background: #35E245;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 40px 0px;
+	border-radius: 30px;
+	transition: background : 0.5s;
+	text-decoration : none;
+}
+.btn-1:hover{
+	background: maroon;
+}
+.catagorie{
+	width: 100%;
+	height: 425px;
+	background-color: #F3F6AA;
+}
+.col-3{
+	width: 100%;
+	margin-top: -60px;
+    padding: 25px 0px;
+}
+.col-3 img{
+	width: 23%;
+    height: 300px;
+    padding: 65px 10px 10px 10px;
+    float: left;
+}
+.Featured{
+	width: 100%;
+	height: 450px;
+	background-color: #CFDFF7;
+}
+.title{
+	text-align: center;
+	padding-top: 25px;
+	color: black;
+}
+.col-4{
+	width: 24%;
+	padding: 2px;
+    transition: transform 0.5s;
+    float: left;
+}
+.col-4 img{
+	width: 100%;
+	height: 250px;
+	padding-top: 25px;
+	float: left;
+}
+.col-4 h4{
+	color: black;
+	font-size: 20px;
+}
+.col-4 p{
+	font-size: 15px;
+}
+.rating .fa{
+	color: #870909;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+.product{
+	width: 100%;
+	height: 1775px;
+	background-color: #F7CFCF;
+}
+.btn-2{
+	display: inline-block;
+	background: #35E245;
+	color: #fff;
+	padding: 2px 4px;
+	border-radius: 30px;
+	font-size: 12px;
+	transition : background: 0.5s;
+	position: fixed;
+	text-decoration: none;
+}
+.btn-2:hover{
+	background: maroon;
+}
+.offer-2{
+	flex-basis: 50%;
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+.offer-2 img{
+	width: 240px;
+    height: 350px;
+    margin-left: 225px;
+    margin-top: 20px;
+    transition: transform 0.5s;
+    float: left;
+}
+.offer-2 img:hover{
+	transform: translateY(-10px);
+}
+.col-2 p{
+	width: 100%;
+    height: 18px;
+    float: left;
+    padding-top: 210px;
+}
+.col-2 h1{
+	width: 100%;
+    height: 18px;
+    color: maroon;
+    padding-top: 15px;
+    float: left;
+}
+.col-2 small{
+	width: 100%;
+    height: 18px;
+    float: left;
+    padding-top: 25px;
+}
+.membership{
+	width: 100%;
+	height: 420px;
+	background-color:#CB2F73;
+	float:left;
+}
+.managment-title{
+	float: left;
+	margin: 0px 250px;
+	text-align: center;
+	padding: 10px 5px;
+}
+.managment-title h2{
+	margin-top: 10px;
+	padding top: 5px;
+	text-transform : uppercase;
+}
+.managment-title p{
+	font-size: 20px;
+}
+.part{
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.part:hover{
+	transform: translateY(-10px);
+}
+.member-one{
+	width: 25%;
+	float:left;
+}
+.member-one img{
+	width: 80px;
+	height: 100px;
+	margin: 0px 117px;
+	float: left;
+	box-shadow:100px;
+}
+.member-one h2{
+	width: 58%;
+    float: left;
+    color: green;
+    margin: 0px 68px;
+    font-size: 30px;
+}
+.member-one h4{
+	font-size: 18px;
+    margin: 0px 79px;
+}
+.member-one p{
+	font-size: 16px;
+	margin: 4px;
+}
+.social-icon{
+	width: 100%;
+	height: 50px;
+	float:left;
+}	
+.social-icon ul{
+	list-style: none;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 7px 20px;
+	padding: 3px 5px;
+	transition: .4s ease;
+}
+.social-icon ul li:hover{
+	transform: rotate(360deg);
+}
+.member-two{
+	width: 25%;
+	float:left;
+}
+.member-two img{
+	width: 80px;
+	height: 100px;
+	margin: 0px 117px;
+	float: left;
+	box-shadow:100px;
+}
+.member-two h2{
+	width: 65%;
+    float: left;
+    color: green;
+    margin: 0px 60px;
+    font-size: 30px;
+}
+.member-two h4{
+	font-size: 18px;
+    margin: 0px 79px;
+}
+.member-two p{
+	font-size: 16px;
+	margin: 4px;
+}
+.member-three{
+	width: 25%;
+	float:left;
+}
+.member-three img{
+	width: 80px;
+	height: 100px;
+	margin: 0px 117px;
+	float: left;
+	box-shadow:100px;
+}
+.member-three h2{
+	width: 58%;
+    float: left;
+    color: green;
+    margin: 0px 80px;
+    font-size: 30px;
+}
+.member-three h4{
+	font-size: 18px;
+    margin: 0px 79px;
+}
+.member-three p{
+	font-size: 16px;
+	margin: 4px;
+}
+.member-four{
+	width: 25%;
+	float:left;
+}
+.member-four img{
+	width: 80px;
+	height: 100px;
+	margin: 0px 117px;
+	float: left;
+	box-shadow:100px;
+}
+.member-four h2{
+	width: 60%;
+    float: left;
+    color: green;
+    margin: 0px 57px;
+    font-size: 30px;
+}
+.member-four h4{
+	font-size: 18px;
+    margin: 0px 76px;
+}
+.member-four p{
+	font-size: 16px;
+	margin: 4px;
+}
+/*--------brands-------*/
+.brand{
+	width: 100%;
+	height: 150px;
+	background-color:#FFFFFF;
+	float:left;
+}
+.col-5{
+	width: 20%;
+	transition: transform 0.5s;
+	float: left;
+}
+.col-5:hover{
+	transform: translateY(-10px);
+}
+.col-5 img{
+	width: 100%;
+	height: 149px;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.col-5 img:hover{
+	filter: grayscale(0);
+}
+/*------footer--------*/
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color:#0A3254;
+	float:left;
+}
+.part-1{
+	width: 30%;
+	height: 80px;
+	color: #FFFFFF;
+	float: left;
+}
+.footer-col-1 h1{
+	margin: 10px 100px 7px 0px;
+	float: left; 
+}
+.part-2{
+	width: 20%;
+	height: 80px;
+	color: #FFFFFF;
+	float: left;
+}
+.app-logo img{
+	width:40%;
+	float: left;
+}
+.footer-col-2 img{
+	width: 30%;
+    height: 70px;
+    margin-top: 10px;
+    padding-right: 225px;
+    float: left;
+}
+.footer-col-2 p{
+	margin-right: 5px;
+}
+.footer-col-3 h2{
+	margin: 7px 10px 7px 0px;
+}
+.part-2 ul{
+	list-style-type: none;
+}
+.footer-col-4 h2{
+	margin: 7px 10px 7px 0px;
+}
+.copyright{
+	padding-top: 120px;
+    color: #FFFFFF;
+    text-align: center;
+}
